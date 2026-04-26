@@ -46,10 +46,16 @@ body {
 /* SECTIONS */
 section {
     background: white;
-    margin: 20px;
-    padding: 25px;
-    border-radius: 12px;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 15px;
+    width: 80%;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
     transition: 0.3s;
+}
+
+section:hover {
+    transform: translateY(-8px);
 }
 
 section:hover {
