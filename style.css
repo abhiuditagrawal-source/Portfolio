@@ -9,10 +9,15 @@ body {
 
 /* HERO */
 .hero {
-    background: linear-gradient(135deg, #007bff, #00c6ff);
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
     color: white;
     text-align: center;
-    padding: 80px 20px;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 45px;
+    letter-spacing: 1px;
 }
 
 .hero h1 {
@@ -23,20 +28,29 @@ body {
 .hero p {
     font-size: 18px;
 }
-
+h2 {
+    color: #007bff;
+    border-left: 5px solid #007bff;
+    padding-left: 10px;
+}
 /* BUTTON */
 .btn {
     display: inline-block;
     margin-top: 20px;
-    padding: 12px 25px;
+    padding: 14px 30px;
     background: white;
-    color: #007bff;
+    color: #1e3c72;
     text-decoration: none;
-    border-radius: 8px;
+    border-radius: 30px;
     font-weight: bold;
     transition: 0.3s;
 }
 
+.btn:hover {
+    background: #1e3c72;
+    color: white;
+    transform: scale(1.1);
+}
 .btn:hover {
     background: #007bff;
     color: white;
@@ -66,12 +80,17 @@ section:hover {
 /* SKILLS */
 .skills span {
     display: inline-block;
-    background: #007bff;
+    background: #1e3c72;
     color: white;
-    padding: 8px 15px;
-    margin: 5px;
-    border-radius: 20px;
+    padding: 10px 18px;
+    margin: 6px;
+    border-radius: 25px;
     transition: 0.3s;
+}
+
+.skills span:hover {
+    background: #ff7a18;
+    transform: scale(1.1);
 }
 
 .skills span:hover {
