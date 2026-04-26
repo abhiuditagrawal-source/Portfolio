@@ -115,3 +115,55 @@ footer {
     text-align: center;
     padding: 15px;
 }
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: #001f3f;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.navbar ul li a:hover {
+    color: #00c6ff;
+}
+
+/* PROJECT CARDS */
+.project-card {
+    background: #f9f9f9;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 12px;
+    transition: 0.3s;
+    border-left: 5px solid #007bff;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* FADE ANIMATION */
+section {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: 0.6s;
+}
